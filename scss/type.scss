@@ -1,0 +1,73 @@
+$font-size:20px;
+$lead: $font-size*1.4;
+$half-lead: $lead/2;
+$double-lead: $lead*2;
+$no-lead: 0;
+
+$primary-color:yellow;
+
+%base-font{
+	font-family:"Circular-Book";
+}
+
+.full-bleed{
+	// background:$primary-color;
+	padding:0 2rem;
+}
+
+.container-fluid{
+	// padding:0rem;
+}
+
+h1{
+	@extend %base-font;
+	// height:100vh;
+	text-align:center;
+	
+	justify-content:center;
+	line-height:1.1em;;
+	font-weight:normal;
+	padding:3.5em 0em;
+	@media screen and (min-width:48em){
+		font-size:$font-size*4;
+	
+		padding:2em 15vw 0;
+	
+	}
+}
+
+.row.header{
+	height:85vh;
+	@media screen and (min-width:48em){
+		height:85vh;	
+	}
+}
+
+header{
+	background:$primary-color;
+	// height:100vh;
+}
+
+p{	@extend %base-font;
+	font-size:$font-size;
+	line-height:$lead;
+	margin-bottom:$lead;
+	margin-top:$no-lead;
+}
+
+h3{	
+	@extend %base-font;
+	font-size:$font-size;
+	line-height:$lead;
+	margin-top:$no-lead;
+	font-weight:normal;
+}
+
+
+
+.row{
+	margin-bottom:$double-lead;
+	border-bottom:2px solid $primary-color;
+	
+}
+

@@ -1,0 +1,19 @@
+.apply{
+	a{
+		@extend %base-font;
+		font-size:36px;
+		color:black;
+		text-decoration:none;
+		&:visited{
+			color:black;
+		}
+		&:hover{
+			background:$primary-color;
+		}
+
+
+	}
+		border-bottom:none;
+		margin-bottom:$lead*10;
+	
+}

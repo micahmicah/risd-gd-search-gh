@@ -1,0 +1,24 @@
+nav{
+	margin-bottom:0em!important;
+	a{
+		@extend %base-font;
+		color:black;
+		text-decoration:none;
+		font-size:24px;
+		@media screen and (min-width:48em){
+			font-size:30px;
+		}
+		padding:1em 1.5rem;
+		&:visited{
+			color:black;
+			text-decoration:none;
+		}
+
+	}
+	.nav-org{
+		text-align:right;
+	}
+	.nav-home{
+		text-align:center;
+	}
+}
