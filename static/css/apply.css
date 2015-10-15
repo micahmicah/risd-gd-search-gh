@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$primary-color".
-        on line 11 of scss/apply.scss
+        on line 12 of scss/apply.scss
 
-6: 		text-decoration:none;
-7: 		&:visited{
-8: 			color:black;
-9: 		}
-10: 		&:hover{
-11: 			background:$primary-color;
-12: 		}
-13: 
+7: 		display:inline-block;
+8: 		&:visited{
+9: 			color:black;
+10: 		}
+11: 		&:hover{
+12: 			background:$primary-color;
+13: 		}
 14: 
-15: 	}
-16: 		border-bottom:none;
+15: 
+16: 	}
+17: 		border-bottom:none;
 
 Backtrace:
-scss/apply.scss:11
+scss/apply.scss:12
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -77,17 +77,16 @@ scss/apply.scss:11
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:293:in `watch'
-/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin.rb:108:in `method_missing'
-/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
-/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:50:in `process_result'
-/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-/Users/mbarrett/.rbenv/versions/2.1.2/bin/sass:23:in `load'
-/Users/mbarrett/.rbenv/versions/2.1.2/bin/sass:23:in `<main>'
+/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.7.6/lib/listen/listener.rb:272:in `call'
+/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.7.6/lib/listen/listener.rb:272:in `_process_changes'
+/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.7.6/lib/listen/listener.rb:231:in `block in _wait_for_changes'
+/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.7.6/lib/listen/listener.rb:214:in `loop'
+/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.7.6/lib/listen/listener.rb:214:in `_wait_for_changes'
+/Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.7.6/lib/listen/listener.rb:301:in `block in _start_wait_thread'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-color\".\A         on line 11 of scss/apply.scss\A \A 6: 		text-decoration:none;\A 7: 		&:visited{\A 8: 			color:black;\A 9: 		}\A 10: 		&:hover{\A 11: 			background:$primary-color;\A 12: 		}\A 13: \A 14: \A 15: 	}\A 16: 		border-bottom:none;"; }
+  content: "Error: Undefined variable: \"$primary-color\".\A         on line 12 of scss/apply.scss\A \A 7: 		display:inline-block;\A 8: 		&:visited{\A 9: 			color:black;\A 10: 		}\A 11: 		&:hover{\A 12: 			background:$primary-color;\A 13: 		}\A 14: \A 15: \A 16: 	}\A 17: 		border-bottom:none;"; }
