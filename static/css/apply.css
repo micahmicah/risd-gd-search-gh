@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$primary-color".
-        on line 12 of scss/apply.scss
+        on line 22 of scss/apply.scss
 
-7: 		display:inline-block;
-8: 		&:visited{
-9: 			color:black;
-10: 		}
-11: 		&:hover{
-12: 			background:$primary-color;
-13: 		}
-14: 
-15: 
-16: 	}
-17: 		border-bottom:none;
+17: 		display:block;
+18: 		&:visited{
+19: 			color:black;
+20: 		}
+21: 		&:hover{
+22: 			background:$primary-color;
+23: 		}
+24: 		&:after{
+25: 			content:"o";
+26: 			font-family:"pictograms";
+27: 			font-size:0.7em;
 
 Backtrace:
-scss/apply.scss:12
+scss/apply.scss:22
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/mbarrett/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -89,4 +89,4 @@ scss/apply.scss:12
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-color\".\A         on line 12 of scss/apply.scss\A \A 7: 		display:inline-block;\A 8: 		&:visited{\A 9: 			color:black;\A 10: 		}\A 11: 		&:hover{\A 12: 			background:$primary-color;\A 13: 		}\A 14: \A 15: \A 16: 	}\A 17: 		border-bottom:none;"; }
+  content: "Error: Undefined variable: \"$primary-color\".\A         on line 22 of scss/apply.scss\A \A 17: 		display:block;\A 18: 		&:visited{\A 19: 			color:black;\A 20: 		}\A 21: 		&:hover{\A 22: 			background:$primary-color;\A 23: 		}\A 24: 		&:after{\A 25: 			content:\"o\";\A 26: 			font-family:\"pictograms\";\A 27: 			font-size:0.7em;"; }

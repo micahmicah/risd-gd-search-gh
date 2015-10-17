@@ -10,16 +10,22 @@ h1 {
   line-height: 1.1em;
   font-weight: normal;
   padding: 10vh 0em; }
+  @media screen and (min-width: 500px) {
+    h1 {
+      font-size: 60px; } }
   @media screen and (min-width: 48em) {
     h1 {
-      font-size: 80px;
-      padding: 10vh 15vw 0; } }
+      font-size: 80px; } }
 
 .row.header {
-  height: 85vh; }
+  height: 85vh;
+  overflow: hidden; }
   @media screen and (min-width: 48em) {
     .row.header {
-      height: 85vh; } }
+      height: 100vh; } }
+  @media screen and (min-width: 900px) {
+    .row.header {
+      padding: 10vh 15vw 0; } }
 
 header {
   background: yellow; }

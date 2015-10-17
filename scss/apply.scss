@@ -1,15 +1,35 @@
-.apply{
+.links{
+	p{
+		margin-bottom:0em;
+	}
+	ul{
+		// padding:0em;
+	}
+
+	li{
+		list-style:none;
+	}
 	a{
 		@extend %base-font;
 		font-size:36px;
 		color:black;
 		text-decoration:none;
-		display:inline-block;
+		display:block;
 		&:visited{
 			color:black;
 		}
 		&:hover{
 			background:$primary-color;
+		}
+		&:after{
+			content:"o";
+			font-family:"pictograms";
+			font-size:0.7em;
+			margin-left:0.5em;
+			color:rgb(220,220,220);
+		}
+		&:hover:after{
+			color:black;
 		}
 
 
