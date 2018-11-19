@@ -22,10 +22,13 @@ h1 {
   overflow: hidden; }
   @media screen and (min-width: 48em) {
     .row.header {
-      height: 100vh; } }
+      height: 85vh; } }
   @media screen and (min-width: 900px) {
     .row.header {
       padding: 10vh 15vw 0; } }
+  @media screen and (max-width: 800px) {
+        .row.header {
+          padding: 10vh 15vw 0;   height: 65vh; } }
 
 header {
   background: yellow; }
