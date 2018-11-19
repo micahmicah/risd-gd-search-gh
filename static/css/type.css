@@ -28,7 +28,7 @@ h1 {
       padding: 10vh 15vw 0; } }
   @media screen and (max-width: 800px) {
         .row.header {
-          padding: 10vh 15vw 0;   height: 65vh; } }
+          padding: 10vh 15vw;   height: 50vh; } }
 
 header {
   background: yellow; }
