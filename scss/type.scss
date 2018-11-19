@@ -42,10 +42,13 @@ h1{
 	height:50vh;
 	overflow:hidden;
 	@media screen and (min-width:48em){
-		height:100vh;
+		height:50vh;
 	}
 	@media screen and (min-width:900px){
 		padding:10vh 15vw 0;
+	}
+	@media screen and (max-width:900px){
+		padding: 10vh 0; height: auto;
 	}
 }
 
